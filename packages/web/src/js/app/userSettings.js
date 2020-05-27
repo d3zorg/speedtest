@@ -15,7 +15,7 @@ export default class UserSettings {
    */
   load() {
     this.data = JSON.parse(localStorage.getItem("settings")) || {};
-    this.data.theme = this.data.theme || "dark";
+    this.data.theme = this.data.theme || "light";
   }
 
   /**
